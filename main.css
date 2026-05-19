@@ -382,10 +382,15 @@ body::after {
 }
 
 .card-img-icon {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   object-fit: contain;
   filter: brightness(1.1);
+}
+
+.card-img-icon[src*="ea-logo"] {
+  width: 42px;
+  height: 42px;
 }
 
 .card:hover .card-icon {
